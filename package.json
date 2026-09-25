@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-nci-evs",
+  "version": "0.1.0",
+  "description": "NCI Thesaurus concepts and the other cancer-research vocabularies served by NCI Enterprise Vocabulary Services: codes, synonyms, definitions and hierarchy.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-nci-evs": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nci-evs"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-nci-evs.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-37a73af160ddbc9f34178365a5bc8d47519913716abcd19b7766d3f7262faf45",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
