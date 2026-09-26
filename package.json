@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nci-evs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NCI Thesaurus concepts and the other cancer-research vocabularies served by NCI Enterprise Vocabulary Services: codes, synonyms, definitions and hierarchy.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-37a73af160ddbc9f34178365a5bc8d47519913716abcd19b7766d3f7262faf45",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-98e206d35678cf32569c55306a124398ddbbe81bdf87b1aee478379fee652887",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }
